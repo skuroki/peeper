@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "peeper"
   gem.version       = Peeper::VERSION
   gem.authors       = ["Shinsuke KUROKI"]
-  gem.email         = ["s-kuroki@aiming-inc.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["shinsukekuroki@gmail.com"]
+  gem.description   = %q{Provide Kernel#peep, calls pp(self)}
+  gem.summary       = %q{Provide Kernel#peep, calls pp(self)}
+  gem.homepage      = "https://github.com/skuroki/peeper"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
